@@ -33,3 +33,30 @@ pip install aiogram==3.13.1
 Этот проект распространяется под лицензией MIT. См. файл LICENSE для получения дополнительной информации.
 
 **Примечание:** Не забудьте заменить токены и другие конфиденциальные данные на свои собственные при использовании этого примера.
+
+Telegram Bot on Python with aiogram 3.13.1 and Yandex Cloud Functions
+This project is an example of creating a simple Telegram bot using Python and the aiogram library. The bot handles commands such as /start, /start_2, and /start_3 and responds with corresponding messages. The project is configured for deployment on the Yandex Cloud Functions platform.
+
+Project Structure
+index.py: Main entry point of the application. Handles incoming events from Yandex Cloud Function and passes them to the aiogram dispatcher.
+create_bot.py: Contains logic for initializing the bot and its dispatcher, as well as setting up the bot's commands.
+start.py: File containing handlers for the /start, /start_2, and /start_3 commands.
+Installation and Configuration
+Requirements
+To run this project, you need to install the following dependencies:
+
+
+pip install aiogram==3.13.1
+You will also need to create an account on Yandex Cloud and set up access to Yandex Cloud Functions.
+
+Environment Variables Setup
+In the file create_bot.py, the environment variable BOT_TOKEN is used to store your Telegram bot token. Make sure you have set this variable before running the project.
+
+Deployment on Yandex Cloud Functions
+Follow the instructions for creating and configuring a function on Yandex Cloud Functions. Specify index.handler as the entry point for your function.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+Note: Remember to replace tokens and other sensitive data with your own when using this example.
+
