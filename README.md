@@ -1,4 +1,4 @@
-# Telegram-бот на Python с использованием aiogram 3.11.1 и Yandex Cloud Functions
+# Telegram-бот на Python с использованием aiogram 3.13.1 и Yandex Cloud Functions
 
 Этот проект представляет собой пример создания простого Telegram-бота с использованием Python и библиотеки `aiogram`. Бот обрабатывает команды `/start`, `/start_2` и `/start_3` и отвечает соответствующими сообщениями. Проект настроен для развертывания на платформе Yandex Cloud Functions.
 
